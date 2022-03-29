@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
     <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/40d1a490ff.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="general">
@@ -19,17 +20,9 @@
                 <span id="mail"></span>
                 <h6>password</h6>
                 <input type="password" placeholder="******" value="" id="inf">
+                <i class="fa-solid fa-eye" onclick="Word()" id="eye"></i>
                 <span id="pass"></span>
             </label>
-            <div class="finish">
-                <div class="check">
-                    <input type="checkbox" onclick="Word()">
-                    <label for="#">Show your password</label>
-                </div>
-                <div class="forgot">
-                    <a href="#">Forgot</a>
-                </div>
-            </div>
             <div class="sign">
                 <button type="submit" onclick="FullName()">SIGN IN</button>
             </div>

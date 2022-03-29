@@ -112,6 +112,16 @@ font-weight: bold;
 font-family: "Proxima Nova";
 text-align: center;
 }
+#inf{
+    position: relative;
+}
+i{
+    position: absolute;
+    top: 42%;
+    right: 37%;
+    color: #8b8b8b;
+    cursor: pointer;
+}
 span{
     color: red;
 }

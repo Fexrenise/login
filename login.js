@@ -14,12 +14,16 @@ function FullName() {
     };
 }
 
+
 function Word(){
-    let show =document.getElementById('')
+    let show =document.getElementById('inf')
+    let x = document.getElementById('eye')
     if (show.type =='password'){
         show.type='text';
+        x.className ='fa-solid fa-eye-slash';
     }
     else{
         show.type='password';
+        x.className ='fa-solid fa-eye';
     }
 }
